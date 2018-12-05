@@ -1,0 +1,42 @@
+@media (min-width: $breakpoint-tablet){
+  #hamburger, #h2-hidden{
+    display: none;
+  }
+  h1{
+    font-size: 3.7rem !important;
+  }
+  .web{
+    font-size: 2rem;
+  }
+  #titular{
+    padding: 10%;
+  }
+  .h2robin{
+    font-size: $h2 !important;
+  }
+  #arrow-1{
+    padding: 12.5px 0;
+  }
+  #arrow-2{
+    padding-bottom: 2%;
+  }
+  .images{
+    width: 33.33%;
+    float: left;
+  }
+  .text-container{
+    display: block !important;
+    .blaz{
+      font-size: $h2 !important; 
+    }
+    p{
+      font-size: 1.1rem !important;
+    }
+  }
+  #text1, #text2{
+    width: 38%;
+  }
+  #text2{
+    padding-top: 90px; 
+  }
+}

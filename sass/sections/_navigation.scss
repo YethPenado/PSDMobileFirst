@@ -1,0 +1,47 @@
+.header{
+  background-color: #373c3f;
+  height: 45px;
+  h2{
+    float: left;
+    font-weight: normal;
+    padding-top: 14px;
+    font-size: 1rem;
+    color: $light-grey;
+  }
+  img{
+      max-width: 15px;
+      padding: 14px;
+  }
+}
+
+.hamburguer{
+  cursor: pointer;
+  float: right;
+  background-color: $black;
+}
+
+#menu{
+  background-color: $black;
+  padding-right: 0;
+  padding-bottom: 5%;
+}
+
+ul{
+  float: right;
+  position: absolute;
+  right: 5%;
+  li{
+      padding-bottom: 15px;
+      padding-top: 15px;
+      padding-right: 15px;
+      font-size: 0.8rem;
+      a{
+        color: $white;
+        float: right;
+      }
+  }
+}
+
+.hidden-menu {
+  display: none;
+}

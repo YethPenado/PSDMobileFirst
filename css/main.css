@@ -1,0 +1,187 @@
+@media (min-width: 980px) {
+  #hamburger, #h2-hidden {
+    display: none; }
+
+  h1 {
+    font-size: 3.7rem !important; }
+
+  .web {
+    font-size: 2rem; }
+
+  #titular {
+    padding: 10%; }
+
+  .h2robin {
+    font-size: 1.8rem !important; }
+
+  #arrow-1 {
+    padding: 12.5px 0; }
+
+  #arrow-2 {
+    padding-bottom: 2%; }
+
+  .images {
+    width: 33.33%;
+    float: left; }
+
+  .text-container {
+    display: block !important; }
+    .text-container .blaz {
+      font-size: 1.8rem !important; }
+    .text-container p {
+      font-size: 1.1rem !important; }
+
+  #text1, #text2 {
+    width: 38%; }
+
+  #text2 {
+    padding-top: 90px; } }
+@media (min-width: 1024px) {
+  .text-container {
+    padding-left: 6%;
+    padding-right: 6%; } }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+html {
+  font-size: 16px; }
+
+h1 {
+  color: white;
+  font-size: 1.5rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+#wrapper {
+  overflow: hidden;
+  width: 100%; }
+
+.container {
+  max-width: 90%;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.header {
+  background-color: #373c3f;
+  height: 45px; }
+  .header h2 {
+    float: left;
+    font-weight: normal;
+    padding-top: 14px;
+    font-size: 1rem;
+    color: #ebebeb; }
+  .header img {
+    max-width: 15px;
+    padding: 14px; }
+
+.hamburguer {
+  cursor: pointer;
+  float: right;
+  background-color: black; }
+
+#menu {
+  background-color: black;
+  padding-right: 0;
+  padding-bottom: 5%; }
+
+ul {
+  float: right;
+  position: absolute;
+  right: 5%; }
+  ul li {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 0.8rem; }
+    ul li a {
+      color: white;
+      float: right; }
+
+.hidden-menu {
+  display: none; }
+
+#titular {
+  background-image: url("../img/fondo-celeste.png");
+  background-size: cover; }
+
+.containerh1 {
+  padding-top: 51px;
+  padding-bottom: 20px; }
+
+.web {
+  color: white;
+  opacity: 0.5;
+  float: left; }
+
+.arrow {
+  width: 3%;
+  padding-left: 30%;
+  padding-bottom: 54px; }
+
+.h2robin {
+  color: #9282a0;
+  width: 65%;
+  background-color: #27212c;
+  float: left;
+  font-size: 0.5rem;
+  padding-left: 5%;
+  padding-top: 35px;
+  padding-bottom: 32px; }
+
+#arrow-1 {
+  background-color: #bc3183;
+  float: left;
+  width: 30%;
+  height: 77px;
+  text-align: center; }
+  #arrow-1 img {
+    width: 12px;
+    padding-top: 30px; }
+
+#arrow-2 {
+  background-color: #5b0fa1;
+  text-align: center; }
+  #arrow-2 img {
+    width: 10%;
+    padding: 33.3% 0; }
+
+.images img {
+  width: 100%; }
+
+#text {
+  background-color: #ebebeb;
+  padding-left: 12%;
+  padding-right: 12%; }
+  #text h2 {
+    font-size: 1.1rem;
+    padding: 35px 0 26px 0; }
+  #text p {
+    color: #515151;
+    padding-bottom: 35px;
+    font-size: 0.9rem; }
+
+.text-container {
+  float: left;
+  width: 100%; }
+
+.none {
+  display: none; }
+
+.blaz {
+  color: #088ca5; }
+
+/*# sourceMappingURL=main.css.map */

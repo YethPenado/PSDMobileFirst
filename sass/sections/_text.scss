@@ -1,0 +1,27 @@
+#text{
+  background-color: $light-grey;
+  padding-left: 12%;
+  padding-right: 12%;
+  h2{
+      font-size: 1.1rem;
+      padding: 35px 0 26px 0;
+  }
+  p{
+    color: #515151;
+    padding-bottom: 35px;
+    font-size: 0.9rem;
+  }
+}
+
+.text-container{
+  float: left;
+  width: 100%;
+}
+
+.none{
+  display: none;
+}
+
+.blaz{
+  color: #088ca5;
+}
